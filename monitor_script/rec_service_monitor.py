@@ -119,8 +119,8 @@ def inster_record_to_database(appname, type, status):
 
 
 if __name__ == '__main__':
-    feeds_query = '*219.234,LibraABTestInfo:,loccityid:1,adinfe:1'
-    check_service_status('10.73.244.125', 'feeds', '*', feeds_query, 100, '*')
-    check_service_status('search-aggregator-***.beta', '***', '7771', 'query=all()', 100,
-                         'search-aggregator-*')
+    feeds_query = '*219,LibraABTestInfo:,loccityid:1,adinfe:1'
+    check_service_status('10.*.125', 'feeds', '*', feeds_query, 100, '*')
+    check_service_status('***.beta', '***', '7771', 'query=all()', 100,
+                         'or-*')
     # send_elephant_notice('Test is OK')

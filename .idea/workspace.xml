@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e04ce66-d13a-4d77-ab6c-f610d0b84661" name="Default" comment="" />
+    <list default="true" id="3e04ce66-d13a-4d77-ab6c-f610d0b84661" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Tools/get_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/get_schema.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_schema.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_schema.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tools/get_schema.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="320">
+              <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inCodeCoverage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inCodeCoverage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/inCodeCoverage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="150">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -112,8 +114,8 @@
         <option value="$PROJECT_DIR$/monitor_script/get_info_of_online_service.py" />
         <option value="$PROJECT_DIR$/monitor_script/rec_service_monitor.py" />
         <option value="$PROJECT_DIR$/test_script/qu_service_rewrite_thead.py" />
-        <option value="$PROJECT_DIR$/Tools/get_schema.py" />
         <option value="$PROJECT_DIR$/Tools/schema_docvalue_compare.py" />
+        <option value="$PROJECT_DIR$/Tools/get_schema.py" />
       </list>
     </option>
   </component>
@@ -234,7 +236,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1410" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,17 +246,17 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,13 +325,6 @@
     <entry file="file://$PROJECT_DIR$/test_script/thread_logging.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/get_schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/schema_docvalue_compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-544">
@@ -345,8 +339,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/inCodeCoverage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="150">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/get_schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
         </state>
       </provider>
     </entry>
