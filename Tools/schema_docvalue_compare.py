@@ -5,7 +5,6 @@ import re
 import string
 import sys
 
-#http://www.cnblogs.com/ifantastic/archive/2013/04/12/3017110.html
 
 
 tree =ET.ElementTree(file='/*/schema.xml')

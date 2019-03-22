@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf-8')
 _curpath = os.path.normpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 
-full_url = 'http://10.66.39.41:4081/*iteService&method=queryRewrite&parameterTypes=java.lang.String&parameters=%s&parameterTypes=java.lang.String&parameters=%s'
+full_url = 'http://10.66.41:4081/*iteService&method=queryRewrite&parameterTypes=java.lang.String&parameters=%s&parameterTypes=java.lang.String&parameters=%s'
 
 
 def parse_result(line):

@@ -57,7 +57,7 @@ def get_config(owner, owner_key, key_name):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print "Useage: python get_schema.py bizname path"
+        print "Useage: python get_schema.py ) path"
         print "path is the folder you want to put the schema"
         sys.exit(1)
     biz= sys.argv[1]
