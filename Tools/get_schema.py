@@ -63,7 +63,7 @@ if __name__ == '__main__':
     biz= sys.argv[1]
     path= sys.argv[2]
 
-    res = get_lion_config("***","***","***")
+    res = get_config("***","***","***")
     #匹配到ip
     strPattern = re.compile("\d+\.\d+\.\d+\.\d+")
     strMatch = strPattern.search(res)
@@ -73,10 +73,10 @@ if __name__ == '__main__':
     strMatch = strPattern.search(res)
     db= strMatch.group().strip("/")
     #获取用户名
-    res = get_lion_config("***","***","LionDataSource.***")
+    res = get_config("***","***",".***")
     user= res.split('"result":')[1].strip("}").strip('"')
     #获取密码
-    res = get_lion_config("***","***","***")
+    res = get_config("***","***","***")
     password= res.split('"result":')[1].strip("}").strip('"')
 
     #导出scheme文件
